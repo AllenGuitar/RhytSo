@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&family=Gayathri&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Ottoman+Siyaq&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav{
+    background: linear-gradient(170deg, rgba(11,9,10,1) 0%, rgba(17, 16, 31,0.85) 79%);
+    width: 100%;
+    height: 8vh;
+    display: flex;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 94vh;
+    background: url("assets/Dimensiones\ personalizadas\ 2000x2000\ pxtra.png");
+    background-position: right;
+}
+
+.profile background{
+    opacity: 50%;
+}
+
+.containerinfo, .containerprofile{
+    margin: 20px;
+}
+
+
+.containerinfo{
+    /* background-color: #161a1d; */
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 900px;
+    gap: 30px;
+    padding: 30px;
+    border: inset;
+    border-color: rgba(195, 195, 197, 0.85);
+    border-width: 2px;
+    border-radius: 1%;
+    
+}
+
+.info{
+    width: 100%;
+    height: 7vh;
+    border-bottom:inset;
+    border-color: rgba(195, 195, 197, 0.85);
+    border-width: 2px;
+}
+
+.title{
+    font-size: 1vw;
+    font-family: 'Noto Serif Ottoman Siyaq', serif;
+    ;
+}
+
+.containerprofile{
+    /* background-color: #161a1d; */
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    height: 900px; 
+    gap: 30px;
+    padding: 30px;
+    border: inset;
+    border-color: rgba(195, 195, 197, 0.85);
+    border-width: 2px;
+    border-radius: 1%;
+}
+
+.containerprofile img{
+    border-radius: 100%;
+    width: 50%;
+
+}
+
+.name{
+    text-align: center;
+    font-size: 2vw;
+    width: 100%;
+    height: 7vh;
+    color: #000000;
+    font-family: 'Noto Serif Ottoman Siyaq', serif;
+    font-weight: bold;
+    margin-top: 8%;
+    /*'Fredericka the Great', cursive;/* 'Bungee Spice', cursive; */
+}
+
+.desc{
+    width: 100%;
+    height: 10vh;
+    font-family: 'Noto Serif Ottoman Siyaq', serif;
+    color: #000000;
+    font-size: 0.8vw;
+    margin-top: 8%;
+    text-align: justify;
+
+
+}
+
+.navigator{
+    background-color:rgba(17, 16, 31,0.85);
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 1%;
+    position: fixed;
+    right: 0 ;
+    top: 30%;
+    border-radius: 100% 0 0 100% ;
+    width: 3%;
+    height: 50vh;
+}
+
+.navigator:hover {
+    width: 10%;
+    transition: width 0.2s;
+}
+
+
+.navi{
+    list-style: none;
+    gap: 5vw;
+}
+
+.iconnav{
+    font-family: 'Material Symbols Outlined';
+    font-size: 2.5vw;
+    color: #fff
+}
+
+.icondesc{
+    font-family: 'Gayathri', sans-serif;
+    color: #fff;
+    font-size: 1.3vw;
+    padding-left: 1.2vw;
+    padding-bottom: 10px;
+}
+
+li{
+    display: flex;
+    align-items: center;
+}
+
+
+footer{
+    background: linear-gradient(0deg, rgba(11,9,10,1) 0%, rgb(17, 16, 31) 79%);
+    width: 100%;
+    height: 14vh;
+   
+}
+
+span{}
+
+
