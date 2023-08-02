@@ -46,12 +46,12 @@ body {
   align-items: center;
   justify-content: center;
   margin-bottom: 5rem;
-  gap: 12rem;
+  gap: 20rem;
 }
 
 .item-1 {
-  height: 17rem;
-  width: 12rem;
+  height: 25rem;
+  width: 20rem;
   border-radius: 50%;
   margin-right: 5rem;
   box-shadow: white 0px 1.5px 1px 1.5px;
@@ -65,8 +65,8 @@ body {
 }
 
 .item-2 {
-  height: 21rem;
-  width: 17rem;
+  height: 29rem;
+  width: 25rem;
   border-radius: 50%;
   position: absolute;
   background-color: #a07e7d;
@@ -81,8 +81,8 @@ body {
 }
 
 .item-3 {
-  height: 17rem;
-  width: 12rem;
+  height: 25rem;
+  width: 20rem;
   border-radius: 50%;
   margin-left: 5rem;
   background-color: #a07e7d;
